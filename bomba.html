@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bomba de Combustível</title>
+</head>
+<body>
+    <header></header>
+    <main class="principal">
+        <section class="nome-operador">
+            <p>OPERADOR 999999 - LUCAS EDUARDO SANTOS FARIAS</p>
+        </section>
+        <section class="painel">
+            <ul class="nivel">
+                <li class="nivel__item nivel__item-vazio"></li>
+                <li class="nivel__item"></li>
+                <li class="nivel__item"></li>
+                <li class="nivel__item"></li>
+                <li class="nivel__item"></li>
+            </ul>
+            <div class="painel__texto">
+                <div class="painel__texto__item"><div>Tipo: </div>
+                    <div class="selecao"><input type="checkbox">Gasolina</div>
+                    <div class="selecao"><input type="checkbox">Álcool</div>    
+                    <div class="selecao"><input type="checkbox">Diesel</div>   
+                </div>
+                <div class="painel__texto__item"><p>Insira a quantidade: </p> <input type="text" class="selecao selecao__quantidade">litros</div>
+                <div class="painel__texto__item">- <p>Valor: R$<input type="text" class="selecao selecao__valor"></p></div>
+            </div>
+        </section>
+        <section class="teclado">
+            <div class="teclado__numerico">
+                <div class="teclado__numerico__item">1</div>
+                <div class="teclado__numerico__item">2</div>
+                <div class="teclado__numerico__item">3</div>
+                <div class="teclado__numerico__item">4</div>
+                <div class="teclado__numerico__item">5</div>
+                <div class="teclado__numerico__item">6</div>
+                <div class="teclado__numerico__item">7</div>
+                <div class="teclado__numerico__item">8</div>
+                <div class="teclado__numerico__item">9</div>
+                <div class="teclado__numerico__item teclado__numerico__item__anula">X</div>
+                <div class="teclado__numerico__item">0</div>
+                <div class="teclado__numerico__item teclado__numerico__item__confirma">✓</div>
+            </div>
+            <div class="teclado__texto">
+                <a href="nivel.html" class="teclado__texto__item">CONSULTAR NÍVEL DE COMBUSTÍVEL</a>
+                <a href="relatorio.html" class="teclado__texto__item">ENVIAR RELATÓRIO</a>
+                <a href="index.html" class="teclado__texto__item">SAIR</a>
+            </div>
+        </section>
+        <section class="precos">
+            <div>PREÇOS:</div>
+            <ul class="precos__lista">
+                <li class="precos__lista__item"><div class="precos__lista__item__div">DIESEL:</div><div class="precos__lista__item__div">R$5,24</div></li>
+                <li class="precos__lista__item"><div class="precos__lista__item__div">GASOLINA:</div><div class="precos__lista__item__div">R$5,19</div></li>
+                <li class="precos__lista__item"><div class="precos__lista__item__div">GASOLINA ADITIVADA: </div class="precos__lista__item__div"><div>R$4,99</div></li>
+                <li class="precos__lista__item"><div class="precos__lista__item__div">ÁLCOOL:</div><div class="precos__lista__item__div">R$3,39</div></li>
+            </ul>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
